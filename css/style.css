@@ -1,0 +1,18 @@
+header {
+    background-color: cornflowerblue; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+}
+div {
+    border: chartreuse;
+    border-style: dashed;
+    border-width: 5px;
+    margin: 5px;
+    padding: 5px;
+}
