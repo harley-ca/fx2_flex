@@ -1,10 +1,10 @@
-div {
+/* div {
     border: chartreuse;
     border-style: dashed;
     border-width: 5px;
     margin: 5px;
     padding: 5px;
-}
+} */
 header {
     background-color: cornflowerblue; 
     display: flex;
@@ -22,13 +22,17 @@ header {
 .main-content {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 @media only screen and (min-width: 768px) {
     .main-content {
         flex-direction: row;
+        flex-wrap: wrap;
     }
     .courseOption img {
         width: fit-content;
+        width: 300px;
+        height: 300px;
     }
     header {
         flex-direction: row;
